@@ -15,9 +15,10 @@ Publishes a package to the registry so that it can be installed by name. See
 `npm-developers(7)` for details on what's included in the published package, as
 well as details on how the package is built.
 
-By default npm will publish to the public registry. This can be overridden by
-specifying a different default registry or using a `npm-scope(7)` in the name
-(see `package.json(5)`).
+By default npm will publish to npm, Inc.'s  public package registry at
+<https://registry.npmjs.org>. This can be overridden by specifying a
+different default registry or using a `npm-scope(7)` in the name (see
+`package.json(5)`).
 
 * `<folder>`:
   A folder containing a package.json file

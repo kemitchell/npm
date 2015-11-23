@@ -13,9 +13,9 @@ followed by a slash, e.g.
 Scopes are a way of grouping related packages together, and also affect a few
 things about the way npm treats the package.
 
-Scoped packages are supported by the public npm registry.  The npm
-client is backwards-compatible with un-scoped registries, so it can be
-used to work with scoped and un-scoped registries at the same time.
+Scoped packages are supported by the default registry.  The npm client
+is backwards-compatible with un-scoped registries, so it can be used to
+work with scoped and un-scoped registries at the same time.
 
 ## Installing scoped packages
 

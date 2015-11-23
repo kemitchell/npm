@@ -489,7 +489,7 @@ in which case they will be normalized to a relative path and added to your
 This feature is helpful for local offline development and creating
 tests that require npm installing where you don't want to hit an
 external server, but should not be used when publishing packages
-to the public registry.
+to the default registry.
 
 ## devDependencies
 
@@ -686,7 +686,7 @@ param at publish-time.
 This is a set of config values that will be used at publish-time. It's
 especially handy if you want to set the tag, registry or access, so that
 you can ensure that a given package is not tagged with "latest", published
-to the global public registry or that a scoped module is private by default.
+to the default registry or that a scoped module is private by default.
 
 Any config values can be overridden, but of course only "tag", "registry" and
 "access" probably matter for the purposes of publishing.

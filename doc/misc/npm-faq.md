@@ -342,9 +342,9 @@ user named `npm` owns the scope `@npm`.  Scoped packages are published inside a
 scope by naming them as if they were files under the scope directory, e.g., by
 setting `name` in `package.json` to `@npm/npm`.
 
-Scoped packages are supported by the public npm registry. The npm client is
-backwards-compatible with un-scoped registries, so it can be used to work with
-scoped and un-scoped registries at the same time.
+Scoped packages are supported by the default registry. The npm client
+is backwards-compatible with un-scoped registries, so it can be used to
+work with scoped and un-scoped registries at the same time.
 
 Unscoped packages can only depend on other unscoped packages. Scoped packages
 can depend on packages from their own scope, a different scope, or the public
