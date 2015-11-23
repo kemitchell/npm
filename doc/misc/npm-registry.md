@@ -1,20 +1,19 @@
-npm-registry(7) -- The JavaScript Package Registry
-==================================================
+npm-registry(7) -- JavaScript Package Registries
+================================================
 
 ## DESCRIPTION
 
-To resolve packages by name and version, npm talks to a registry website
-that implements the CommonJS Package Registry specification for reading
-package info.
+To resolve packages by name and version, npm talks to registry websites
+that implement the CommonJS Package Registry specification for reading
+package info. By default, npm is configured to use npm, Inc.'s public
+registry at <http://registry.npmjs.org>. You can read more about npm's
+public registry, and find its terms of use, at <https://www.npmjs.com>.
 
-Additionally, npm's package registry implementation supports several
-write APIs as well, to allow for publishing packages and managing user
-account information.
-
-The official public npm registry is at <http://registry.npmjs.org/>.  It
-is powered by a CouchDB database, of which there is a public mirror at
-<http://skimdb.npmjs.com/registry>.  The code for the couchapp is
-available at <http://github.com/npm/npm-registry-couchapp>.
+The default public registry implementation supports several write APIs
+as well, to allow for publishing packages and managing user account
+information. It is powered by a CouchDB database, of which there is a
+public mirror at <http://skimdb.npmjs.com/registry>.  The code for the
+couchapp is available at <http://github.com/npm/npm-registry-couchapp>.
 
 The registry URL used is determined by the scope of the package (see
 `npm-scope(7)`). If no scope is specified, the default registry is used, which is
@@ -55,10 +54,6 @@ otherwise.
 
 No, but it's way easier.  Basically, yes, you do, or you have to
 effectively implement the entire CouchDB API anyway.
-
-## Is there a website or something to see package docs and such?
-
-Yes, head over to <https://npmjs.com/>
 
 ## SEE ALSO
 
