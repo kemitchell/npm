@@ -66,4 +66,3 @@ Yes, head over to <https://npmjs.com/>
 * npm-config(7)
 * npmrc(5)
 * npm-developers(7)
-* npm-disputes(7)
